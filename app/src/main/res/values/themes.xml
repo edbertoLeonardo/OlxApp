@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OlxProjeto" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#9c27b0</item>
+        <item name="colorPrimaryDark">#7b1fa2</item>
+        <item name="colorAccent">#ff5722</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="botaoPadrao" parent="Theme.AppCompat.Light">
+
+        <item name="colorControlHighlight">#d500f9</item>
+        <item name="colorButtonNormal">#9c27b0</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.OlxProjeto.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.OlxProjeto.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.OlxProjeto.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
